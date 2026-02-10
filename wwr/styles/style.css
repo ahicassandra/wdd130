@@ -7,6 +7,7 @@ nav a {
   text-align: center;
   color: #37E9FF;
   text-decoration: none;
+  padding: 35px;
 }
 
 #hero-msg h1,
@@ -28,8 +29,15 @@ main section {
 
 body {
   background-color: #FFFFFF;
+  font-family: Raleway, Arial, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
+h2 {
+    margin: 0;
 
+}
 header {
   background-color: rgba(33, 33, 33, 0.85); /* dark header with slight transparency */
 }
@@ -44,6 +52,18 @@ nav a:hover {
   background-color: #1917CF;
   color: #FFFFFF;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.card-img {
+  border: 10px solid #1917CF;
+}
+
+main section img {
+  box-sizing: border-box;
 }
 
 .book:hover,
@@ -58,15 +78,22 @@ nav a:hover {
 
 .msg {
   background-color: #FFFFFF;
+  line-height: 1.5em;
+  padding: 35px;
 }
 
 footer {
   background-color: #212121;
   color: #FFFFFF;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 
 .home-title {
-  color: #1917CF;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    color: #1917CF;
+    margin-top: 10px;
 }
 
 h4 {
@@ -79,6 +106,7 @@ h4 {
 
 .msg p {
   color: #212121;
+  padding-bottom: 15px;
 }
 
 footer a {
@@ -90,12 +118,14 @@ footer a:hover {
   color: #3DE338;
 }
 
-.logo {
+#logo_link {
+  padding-top: 5px;
   width: 80px;
 }
 
 .icon {
   width: 80px;
+  padding: 10px;
 }
 
 #hero-img {
@@ -108,4 +138,8 @@ footer p {
 
 footer p a:hover {
   text-decoration: underline;
+}
+
+footer .social img {
+  padding-top: 15px;
 }
