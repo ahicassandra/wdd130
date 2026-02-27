@@ -167,13 +167,17 @@ footer a:hover {
   width: 80px;
 }
 
+.logo {
+    width: 80px;
+}
+
 .icon {
   width: 80px;
   padding: 10px;
 }
 
 #hero-img {
-  width: 80px;
+  width: 100px;
 }
 
 footer p {
