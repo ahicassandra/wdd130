@@ -1,18 +1,22 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #F4F4F4;
+    background: #F5D7E3; 
+    color: #3B429F; 
 }
 
 header {
-    background: #002B5C;
+    background: #3B429F; 
     color: white;
     padding: 20px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 nav {
-    background: #4DA6FF;
+    background: #AA7DCE; 
     padding: 15px;
     text-align: center;
 }
@@ -20,12 +24,92 @@ nav {
 nav a {
     margin: 15px;
     text-decoration: none;
+    color: #3B429F; 
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #A8577E; 
+}
+
+main {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+button {
+    background: #F4A5AE;
+    color: #3B429F;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #A8577E;
     color: white;
 }
 
 footer {
-    background: #002B5C;
+    background: #A8577E; 
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.logo {
+  width: 90px;
+  height: auto;
+}
+
+.hero {
+    width: 60%;
+    height: auto;
+}
+
+.profile {
+    width: 200px;
+    height: auto;
+}
+
+.socials {
+    margin-top: 10px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #3B429F;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 8px;
 }
